@@ -1,0 +1,9 @@
+{
+	"name": "easy-ipl-data-factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "23357520-5fa5-4e98-8193-25dea76ff7ea",
+		"tenantId": "723e5d14-fe97-441a-a5a2-0ea7c624d595"
+	}
+}

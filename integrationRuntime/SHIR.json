@@ -1,0 +1,7 @@
+{
+	"name": "SHIR",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "to established connection with on prem local system"
+	}
+}

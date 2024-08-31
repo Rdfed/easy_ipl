@@ -126,7 +126,7 @@
 									},
 									"inputs": [
 										{
-											"referenceName": "PostgreSqlTable2",
+											"referenceName": "PostgreSqlTable_all",
 											"type": "DatasetReference",
 											"parameters": {}
 										}
@@ -156,7 +156,6 @@
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/PostgreSqlTable_all')]",
-				"[concat(variables('factoryId'), '/datasets/PostgreSqlTable2')]",
 				"[concat(variables('factoryId'), '/datasets/ParquetTables')]"
 			]
 		},

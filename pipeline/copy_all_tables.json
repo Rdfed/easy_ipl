@@ -85,7 +85,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "PostgreSqlTable2",
+									"referenceName": "PostgreSqlTable_all",
 									"type": "DatasetReference"
 								}
 							],

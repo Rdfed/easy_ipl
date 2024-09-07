@@ -27,7 +27,7 @@
 				}
 			},
 			{
-				"name": "ForEach1",
+				"name": "ForEach Schema Table",
 				"type": "ForEach",
 				"dependsOn": [
 					{
@@ -60,7 +60,7 @@
 								"source": {
 									"type": "PostgreSqlV2Source",
 									"query": {
-										"value": "@{concat('SELECT * FROM', item().tables)}",
+										"value": "SELECT * FROM item().tables",
 										"type": "Expression"
 									}
 								},

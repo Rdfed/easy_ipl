@@ -60,7 +60,7 @@
 								"source": {
 									"type": "PostgreSqlV2Source",
 									"query": {
-										"value": "SELECT * FROM item().tables",
+										"value": "@{concat('SELECT * FROM ', item().tables)}",
 										"type": "Expression"
 									}
 								},
